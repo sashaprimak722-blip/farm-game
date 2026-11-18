@@ -1,0 +1,95 @@
+/* --- Стили для страниц входа и регистрации --- */
+.auth-page {
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+}
+
+.auth-container {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid #334155;
+    text-align: center;
+}
+
+.auth-subtitle {
+    color: #94a3b8;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+.auth-form {
+    text-align: left;
+}
+
+.auth-form .input-group {
+    margin-bottom: 15px;
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #cbd5e1;
+    font-size: 0.9rem;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    background: #0f172a;
+    color: #e2e8f0;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.auth-form input:focus {
+    border-color: #38bdf8;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper input {
+    padding-right: 45px; /* Место для кнопки */
+}
+
+.eye-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    opacity: 0.7;
+    padding: 5px;
+}
+
+.eye-btn:hover {
+    opacity: 1;
+}
+
+.auth-link {
+    margin-top: 15px;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.auth-link a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}
